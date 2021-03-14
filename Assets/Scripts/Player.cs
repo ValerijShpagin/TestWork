@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 
     [Header("Player Speed from 0.01 to 10f ")]
     [Range(0.01f, 10.0f)]
-    [SerializeField] private float _speed = 10f;
+    [SerializeField] private float _speed = 1.5f;
     
     private float _step;
     private Camera _cam;
